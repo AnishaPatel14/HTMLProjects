@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Example 2</title>
+</head>
+<body>
+    <h1>Job Application</h1>
+
+    <label for="name">Name</label>
+    <br/>
+    <input type="text" name="name1" id="name">
+    <br/>
+    <br/>
+    <label for="email">Email</label>
+    <br/>
+    <input type="email" name="email1" id="email">
+    <br/>
+    <br/>
+    <label for="phoneNumber">Phone No.</label>
+    <br/>
+    <input type="tel" name="phoneNumber1" id="phoneNumber">
+    <br/>
+    <br/>
+    <label for="resume">Resume</label>
+    <br/>
+    <input type="file" name="resume1" id="resume">
+    <br/>
+    <br/>
+    <label for="counter">Experience(In years)</label>
+    <br/>
+    <input type="number" name="counter1" id="counter" min="0" max="50">
+    <br/>
+    <br/>
+    <fieldset>
+        <legend>Skills</legend>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <label for="checkbox1">HTML</label>
+        <br/>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <label for="checkbox2">CSS</label>
+        <br/>
+        <input type="checkbox" name="checkbox3" id="checkbox3">
+        <label for="checkbox3">JAVASCRIPT</label>
+    </fieldset>
+    <br/>
+   
+    <label for="education">Higher Education</label>
+    <select name="education" id="education">
+        <option value="">--choose your education--</option>
+        <option value="highSchool">High School</option>
+        <option value="underGrad">Under Graduation</option>
+        <option value="postGrad">Post Graduation</option>
+        <option value="phd">P.H.D.</option>
+    </select>
+    <br/>
+    <br/>
+    <fieldSet>
+        <legend>Availability</legend>
+        <input type="radio" id="fulltime" name="Availability">
+        <label for="fulltime">Full Time</label>
+        <br/>
+        <input type="radio" id="parttime" name="Availability">
+        <label for="parttime">Part Time</label>
+    </fieldSet>
+    <br/>
+    <label for="textArea">Additional Comments</label>
+    <br/>
+    <textarea name="textArea" id="textArea" cols="30" rows="5"></textarea>
+    <br/>
+    <input type="submit" value="Submit Application">
+</body>
+</html>

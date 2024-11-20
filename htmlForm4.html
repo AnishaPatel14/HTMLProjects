@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Example 4</title>
+</head>
+<body>
+  <h1>Travel reservation form</h1>
+  <p><b>* denoted mandatory</b></p>
+  <label for="name">Full name*:</label>
+  <br/>
+  <input type="text" name="name" id="name" placeholder="Enter your first and last name">
+  <br/><br/>
+  <label for="email">Email*:</label>
+  <br/>
+  <input type="email" name="email" id="email" placeholder="Enter your Email id">
+  <br/><br/>
+  <label for="city">Select your tour package*</label>
+  <br/><br/>
+  <select name="city" id="city">
+    <option value="">select the location</option>
+    <option value="goa">Goa</option>
+    <option value="manali">Manali</option>
+    <option value="lakshdweep">Lakshdweep</option>
+    <option value="kashmir">Kashmir</option>
+  </select>
+  <br/><br/>
+  <label for="date">Arrival date*:</label>
+  <br/>
+  <input type="date" id="date" name="date">
+  <br/><br/>
+  <label for="person">Number of persons*:</label>
+  <input type="number" name="person" id="person" min="1" max="6">
+  <br/>
+  <p><b>What would you want to avail?*</b></p>
+  <label for="bording">Bording</label>
+  <input type="checkbox" name="bording" id="bording">
+  <br/>
+  <label for="fooding">Fooding</label>
+  <input type="checkbox" name="fooding" id="fooding">
+  <br/>
+  <label for="sight seeing">Sight Seeing</label>
+  <input type="checkbox" name="sight seeing" id="sight seeing">
+  <br/><br/>
+  <label for="code">Discount Coupon Code</label>
+  <br/>
+  <input type="text" name="code" id="code" minlength="6" placeholder="Enter your code">
+  <br/>
+  <p><b>Terms and Conditions*</b></p>
+  <input type="radio" name="condition" id="agree">
+  <label for="agree">I agree</label>
+  <input type="radio" name="condition" id="disagree">
+  <label for="disagree">I disagree</label>
+  <br/><br/>
+  <input type="submit" value="Complete reservation">
+
+  
+</body>
+</html>
